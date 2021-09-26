@@ -1,0 +1,234 @@
+
+  .menu a{
+    position: relative ;
+}
+.menu a:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(39, 209, 150);
+ transition: all 0.5s linear;
+}
+.menu a:hover::before{
+    width: 60%;
+    color: brown;
+    background-color: rgb(145, 144, 153);
+    text-decoration: none;
+}
+.vlack{
+  background-color: black;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.text-black{
+  color: #040404;
+}
+.about-img{
+  margin-left: -70px;
+  right: -60px;
+  margin-top: 5px;
+ }
+ 
+ .display-1{
+   font-size: calc(25px + 11.5vw);
+   font-weight: 1000;
+   
+ }
+  
+ .position-absolute{
+   font-weight: 700;
+   
+ }
+ 
+ .typed-cursor {
+   font-size: 45px;
+   color: #242424;
+ }
+ 
+ .blue{
+   background-color: #e62a1c;
+   color: #cc9696;
+ }
+ .btn{
+   border: 2px solid rgb(176, 180, 185);
+ } 
+ .btn-white{
+   background-color: #242424;
+   border:2px solid #242424;
+ }
+ .btn-blue{
+   border: 2.4px solid  #242424;
+   color: #242424;
+ }
+ @media (max-width: 700px) {
+   .about-img{
+     margin-left: 20px;
+     right: 0px;
+     top: 30px;
+    }
+ }
+
+ 
+
+
+ /*===================== Progress Bar ====================*/
+ 
+ .progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+ padding: 70px 0 60px;
+}
+
+.counts .count-box {
+ padding: 30px 30px 25px 30px;
+ width: 100%;
+ position: relative;
+ text-align: center;
+ background: rgba(255, 255, 255, 0.08);
+}
+
+.counts .count-box i {
+ position: absolute;
+ top: -25px;
+ left: 50%;
+ transform: translateX(-50%);
+ font-size: 24px;
+ background: rgba(255, 255, 255, 0.1);
+ padding: 12px;
+ color: #18d26e;
+ border-radius: 50px;
+}
+
+.counts .count-box span {
+ font-size: 36px;
+ display: block;
+ font-weight: 600;
+ color: #fff;
+}
+
+.counts .count-box p {
+ padding: 0;
+ margin: 0;
+ font-family: "Raleway", sans-serif;
+ font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+ display: flex;
+ align-items: center;
+ padding: 20px;
+ background: rgba(255, 255, 255, 0.08);
+ transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+ font-size: 32px;
+ padding-right: 10px;
+ line-height: 1;
+}
+
+.interests .icon-box h3 {
+ font-weight: 700;
+ margin: 0;
+ padding: 0;
+ line-height: 1;
+ font-size: 16px;
+ color: #fff;
+}
+
+.interests .icon-box:hover {
+ background: rgba(255, 255, 255, 0.12);
+}
+ 
+
+.bbb{
+  background: rgba(140, 135, 135, 0.25);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( -10px );
+-webkit-backdrop-filter: blur( -10px );
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.18);
+}
+.bbbe{
+  background: rgba(181, 174, 174, 0.186);
+
+backdrop-filter: blur( -10px );
+-webkit-backdrop-filter: blur( -10px );
+border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.18);
+}
+.display-10{
+  font-size: calc(19px + 8vw );
+
+}
+
+.ppp{
+  background: rgba(77, 70, 42, 0.22);
+  box-shadow: 0 8px 32px 0 rgba(86, 135, 31, 0.713);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba(183, 208, 17, 0.611);
+}
+.int{}
+.pppw{
+  background: rgba(29, 28, 23, 0.22);
+  box-shadow: 0 8px 32px 0 rgba(112, 119, 103, 0.713);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba(148, 148, 145, 0.611);
+}
+.pppr{
+  background: rgba(77, 45, 42, 0.22);
+  box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.713);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba(208, 17, 17, 0.611);
+}
+.pppo{
+  background: rgba(77, 66, 42, 0.22);
+  box-shadow: 0 8px 32px 0 rgba(135, 90, 31, 0.713);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba(208, 164, 17, 0.611);
+}
+.pppb{
+  background: rgba(77, 66, 42, 0.22);
+  box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.713);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba(17, 157, 208, 0.542);
+}
